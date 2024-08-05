@@ -7,7 +7,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <title>NABIRA</title>
     <style>
         .text {
             text-align: center;
@@ -19,6 +18,63 @@
             flex-direction: row;
             justify-content: space-around;
             margin-top: 3%;
+        }
+
+        .img {
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            background-image: url(https://img.freepik.com/free-photo/blur-hospital-clinic-interior_1203-8618.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 1000px;
+
+        }
+
+        .img-2 {
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            background-image: url(https://us.123rf.com/450wm/tonktiti/tonktiti1509/tonktiti150900649/44983607-blur-tropical-sunset-beach-abstract-background-travel-concept.jpg?ver=6);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            width: 100%;
+            margin-top: -45px;
+        }
+
+        .img-3 {
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            background-image: url(https://media.istockphoto.com/id/1210413775/vector/blue-sky-with-lens-flare-and-bokeh-pattern-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=RpX421HmpmPa3wt69WzBBEVOirjPmkg60EBk5MYgmKk=);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+            margin-top: -45px;
+        }
+
+        .img-4 {
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            background-image: url(https://media.istockphoto.com/id/1210413775/vector/blue-sky-with-lens-flare-and-bokeh-pattern-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=RpX421HmpmPa3wt69WzBBEVOirjPmkg60EBk5MYgmKk=);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            height: 100px;
+        }
+
+        .img-5 {
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            background-color: #5784cb;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 470px;
+
         }
     </style>
 </head>
@@ -49,12 +105,11 @@
                 <ul class="navbar-nav">
 
                     <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            education
+                        <a class="nav-link" href="#"> education</a>
+
                         </a>
 
-                  <ul class="dropdown-menu">
+                        <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                         </ul>
                     </div>
@@ -83,7 +138,7 @@
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Admittion process</a>
+                        <a class="nav-link" href="#">Admision process</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Deparment</a>
@@ -94,97 +149,208 @@
     </nav>
     <hr>
     <!-- carouse -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://scontent.fnag9-1.fna.fbcdn.net/v/t1.6435-9/69473518_451422409038949_1730729455007039488_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=25d718&_nc_ohc=06vlVc3sQUoQ7kNvgFxQNGV&_nc_ht=scontent.fnag9-1.fna&gid=AIKP1yDy_PWB04ApQuSeF01&oh=00_AYB20fy21lxKVHSrziJfffDvz9X9hKb9rfwx28N6Cik2-Q&oe=66CAD16F"
-                    class="d-block w-100" height="600px">
+    <div id="Home">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://scontent.fnag9-1.fna.fbcdn.net/v/t1.6435-9/69473518_451422409038949_1730729455007039488_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=25d718&_nc_ohc=06vlVc3sQUoQ7kNvgFxQNGV&_nc_ht=scontent.fnag9-1.fna&gid=AIKP1yDy_PWB04ApQuSeF01&oh=00_AYB20fy21lxKVHSrziJfffDvz9X9hKb9rfwx28N6Cik2-Q&oe=66CAD16F"
+                        class="d-block w-100" height="600px">
+                </div>
             </div>
         </div>
     </div>
-    <hr>
-    <hr>
     <!-- card -->
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-            <img style="box-shadow: 1px 1px 20px yellow;"
-                src="https://www.nabiramahavidyalayakatol.com/wp-content/uploads/2020/08/Principal-Photo-300x300-1-150x150.jpg"
-                height="300px" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">From Principal Desk</h5>
-                <p class="card-text"> DR.Navin kumar</p>
-                <a href="https://www.nabiramahavidyalayakatol.com/principals-desk/" class="btn btn-primary">Go
-                    somewhere</a>
+    <div id="Deparment">
+        <div class="img-2">
+            <div class="cards">
+                <div class="card" style="width: 18rem;">
+                    <img style="box-shadow: 1px 1px 20px yellow;"
+                        src="https://www.nabiramahavidyalayakatol.com/wp-content/uploads/2020/08/Principal-Photo-300x300-1-150x150.jpg"
+                        height="300px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">From Principal Desk</h5>
+                        <p class="card-text"> DR.Navin kumar</p>
+                        <a href="https://www.nabiramahavidyalayakatol.com/principals-desk/" class="btn btn-primary">Go
+                            somewhere</a>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="card" style="width: 18rem;">
+                    <img style="box-shadow: 1px 1px 20px yellow;"
+                        src="https://www.thehitavada.com/Encyc/2021/1/3/2_07_36_12_Capt-Dr-Tejsingh-Jagdale_1_H@@IGHT_455_W@@IDTH_448.jpg"
+                        height="300px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">From Soprt Head</h5>
+                        <p class="card-text"> DR.Tejsing Jagdale</p>
+                        <a href="https://www.thehitavada.com/Encyc/2021/1/3/Performing-beyond-the-mission-of-NCC.html"
+                            class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card" style="width: 18rem;">
+                    <img style="box-shadow: 1px 1px 20px yellow;"
+                        src="https://www.rashmipriya.com/files/node_images/nm1.JPG" height="300px" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">From Head of BBA Deparment</h5>
+                        <p class="card-text"> DR.Adil Jiwani</p>
+                        <a href="https://www.thehitavada.com/Encyc/2021/1/3/Performing-beyond-the-mission-of-NCC.html"
+                            class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- deparment -->
+        <div class="img-3">
+            <!-- BBA -->
+            <div class="cards">
+                <div class="card" style="width: 18rem;">
+                    <img style="box-shadow: 1px 1px 20px yellow;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNXdmOEeoqkM113-AssbgEJOIHodqNrFT0w&s"
+                        class="card-img-top" height="300px">
+                    <div class="card-body">
+                        <p class="card-text">A Bachelor of Business Administration (BBA) is an undergraduate degree
+                            program that
+                            prepares students for business administration and management roles. The curriculum typically
+                            includes core subjects like accounting, finance, marketing, and management.</p>
+                    </div>
+                </div>
+                <!-- MBA -->
+                <div class="card" style="width: 18rem;">
+                    <img style="box-shadow: 1px 1px 20px yellow;"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZIAAAB9CAMAAAC/ORUrAAAAxlBMVEX///8AAAAJNEkCGSO4uLjT09MfHx+srKxEREQzMzMJNkzs7OylpaXa2tqOjo7d3d3y8vLk5OQBFh/39/cWFhaDg4PAwMBtbW1jY2MpKSmenp7IyMhNTU2WlpbMzMwBExs3NzcILkAGIzELCwsBDhR2dnZVVVVnZ2eFhYUGJjX8zQ2Xl5cAAAsAChQcHBwsIwHswAzftguVeQdhTwXVrQuihAhRQgQTDwDKpAqvjwlBNQPAnAoyKAEREREfGQB0XgOAaAZpVQWh2FusAAAIXElEQVR4nO2deXvaOBDGmRhiroSrHAkhQCCE0G66Pbftbvb4/l9qJdvYM7IlO2pSP7Hm91eDbRj0MpLmsFurMQzDMAzDMAzDMAzDPIFRb/K2XrYRTED/rH45bYLgqmxTnKfTqC+mKwh45y2hWbZBDtNp+ItpK9JieHO/Pmm319Aq2ywnEVqc312EWvzmhVq02ycnJ0KRh7KNc4zOtb+fnWZoEbEGGJVto1vMEy3aVIsIgE7ZNrpFA7Zr1S8URQZl2+gWPYATnRiRImdl2+gWHaGIkS1cl22jW/QB1iZB2luYlG2jW4w2sDbNWu0lLMq20TEuchQZAseIv5YV3BsV8WC7BM42/kKuchS5ga3nwZuyzXSIO7jJUQQ8z1uCX7ahznCbo8i9COmHQhOAsi11hT14OYq8/x3eCUmGcFm2rW5wCUOjImvhIx8+wpLd5Ffhw9KYRRGKDOHTIXKT87LNdYAJbPMU8bwtfP4SuMmWc/MvznWOIifRwv718EfoJuOyLa46Z3mpxk2giPCOb98jN+mXbXO1GeQnf6UO0k1+HN5D8I/bso2uNHnp+HasiAgT//wzchOuK74cMvlrVGQZKyK846/DD+km8Fi22VXmNDf5u40VEW7y/Zv4e8u5xxdkZVBE1t89rIjnvfv78FVEKLuyza4wzczkb9ALsb6/EV5BFREvfPkM3DP0gswURWIttmEXF2ypIsJN4PCJq+8vx/SY/G0ftRgmWiyHXgZD+PiBEyovxlgoIlmvb/K1iDddcPiHI8UXYgHDdbBcFNMichKAf//TRIq9eopRrZ9+MWEyafSeIm94VWU7+7qhEo+zsT8f1CYo+tAj9OvdyasyR6UFKQYyW5NH83xezOR6eH5V93tdmO3962RoW5CvyBZafZl/mVy+zXjHrMEvJIlkXMRZmtHJjqQO5qBurjImrak8c6opYU3xEPeUgz107DR8aeDviCi5Jg6Op7qyvWjmuIlY/8NGx062JCPyq28oRxtpSQS9FX45L9pZxKf+xNd8TTSMbrIMp6GA7BbUSwtJZKNSwmOOJsmZruRzdno3GW6CkbgzXb6xkqT2iA7MjPbNkxNduVGyp3OTOGYx3ViCBuxJktTxVca0wAydqC5VVWWW6SaJINHyng2egZ4iSQ1fZXITsla5UkLrZLjJEghaN5G7IaxKcUnIRs1gXZcY4kri8xaGKQfZnBb6de7FSOM5qLgkfiHJZVc/xpUu2D4pV8kJazeJ47MQXZQmDnXtJJngt9cvJiLkfEQOdfFz3/T1sIflULDcBuvHzpfTA5VE4ybypz7Cv/fiklzjt9dnVsYimDwzfEBVSZbQ3eI4OlQSjZtcyKXfThJ8xHBnanAQTaLGDXmV6Dfmvj85w+OuSJKZ92gEA2YnCdk9a1ftejBX4XDU4QKBIknmUNwBrGqWkuCr9CGgsOIyuLs1Jivz6QiqJBluIkeqbivJGB3RJko60W8BhYubZ/hurxQhyZscN5H5wJqtJA/oiNaI86hKgmc5d+/2FpJc7bEk+9QpEObLrSTBGy79fitWAJ3t7jPahCQrmnhX1+BJ5DpWkqD0vL4MMo89aIHep7IF3zya8l53POGnhq4ZJadsJEH+Z6hhzeKjAyh0QbUJJMFbHdVNZMEwiLotJEHxuCFFIp30GLHgRNozfLtXSSCJXF91bjI+pjeeKskAhRk7Uz29ixIoOGvjSqJLJZSEribkhHhsikoCD28E+IVbc/3jAtBdxOiy1TN8vddIKAlZV8mzbbqxRIUlUdlPjCu1TG0lO2+8+3P0yWCRJKTUhN3kIV5ni0ryuDgPGE/RdmusTwKPSesW7nUxlNSqzFES0u6QZDNkXBH9xi2W9xEuTHU1FgANC3FXi5uJrqMkGjeZJTGbXfRuqkUG1KlXko9x80EVsSSk/HccC7k7PgbddpKQX31WLvFKSRjgnYabzyuOJaFtQdHRc5T/s5SEbObSP3uZcaQbslt0fsFu4mqRSELcJJr48ShaSkJXqdQmSmz1LkYdRB+Xhqvasm0kkYQkbUM3kfN8HMvbSkLcJFVUBzOOtGwTkCSkDS5wkxWuxttKQvuGlM0wKc1n4ErLNgZJQht3amEQl8zz1pIQqZWGizvZltFVUMxwDSwJafDxg4V2lZxpLQmO/pRN1CjjvQKdYlxp2UZgSeiNVsF4oRGxloTmmUn4l6RrdO/mSss2gkhC2knqynhZS0JzmmTBbkHmw6LxRsOVlu0EIglpjmgp4/VMXoKHuKdKFIH3za60bCdQSdQNEJ5lnkkSLMFYMzGRK1xp2Y6hkig3LZCeQ2tJOuQ98QiDbvnGN5vo0pWVRZGE3qFLRt5aErJC4Q9TM47ZlzjTsn1EkaS20w6GtSQko4Jjvyv9SrExfFjVUSXBQQQtfltLQm62RgXGjmG4cZXTfI9j9VAlwdM4PfNZclw4jyiGXfufDpD1x7FKVkqSpJVK6Xu0lYTkR3AVfmNqxsau5VjLdkqSJEuoRAy2kmBFcL3kOv0RCJLceeqXet2kJTnOGWqtwlISvJ8li/nU3PeLJXGrZTstybGsp1b07CTBNUKiiJJBS4G7/dxq2c6QJIydUyuvjSRnuPJOYz4/Z0LC7cFutWw3M7oKx+kBrNGyR4EnDdVGZz5OmV0p60Yr674JDF7gzWdWBRItAInhAjdJ/vQhm2Yn+yldWdyiovuYHkrPSqppIa3K74VT3xvthvZk3tdJIstRRSRZjenyrEiSvhs+W5LqJ7vm6pMY0XI+IlPTQPfsRj/n2Y7iPRu99D63oZyUWihSpoU42iIcMXD76zMMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzDPzv8q3nSMpFiqVwAAAABJRU5ErkJggg=="
+                        class="card-img-top" height="300px">
+                    <div class="card-body">
+                        <p class="card-text">MBA stands for Master of Business Administration, a graduate degree that
+                            focuses on
+                            business management and leadership skills. It's one of the most popular and versatile
+                            graduate
+                            degrees available, and can help you advance your career, move into new industries, or start
+                            your own
+                            business
+                        </p>
+                    </div>
+                </div>
+                <!-- B.PHARM -->
+                <div class="card" style="width: 18rem;">
+                    <img style="box-shadow: 1px 1px 20px yellow;"
+                        src="https://infinitylectures.com/wp-content/uploads/2020/09/b-pharma-course.jpeg"
+                        class="card-img-top" height="300px">
+                    <div class="card-body">
+                        <p class="card-text">B. Pharm stands for Bachelor of Pharmacy, an undergraduate degree course in
+                            pharmacy. It is a popular course for science students after class 12th. The course usually
+                            lasts
+                            four years and covers topics such as: Pharmaceutical sciences, Drug development,
+                            Pharmacology,
+                            Pharmaceutical chemistry, and Pharmacy practice.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- card 2 -->
-        <div class="card" style="width: 18rem;">
-            <img style="box-shadow: 1px 1px 20px yellow;"
-                src="https://www.thehitavada.com/Encyc/2021/1/3/2_07_36_12_Capt-Dr-Tejsingh-Jagdale_1_H@@IGHT_455_W@@IDTH_448.jpg"
-                height="300px" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">From Soprt Head</h5>
-                <p class="card-text"> DR.Tejsing Jagdale</p>
-                <a href="https://www.thehitavada.com/Encyc/2021/1/3/Performing-beyond-the-mission-of-NCC.html"
-                    class="btn btn-primary">Go somewhere</a>
+        <!-- sports -->
+        <div class="img">
+            <h4>Sport:<br>
+                Radio format:
+                Sport is a form of physical activity or game. <br>Often competitive and organized, sports use, maintain,
+                or
+                improve physical ability and skills. <br>They also provide enjoyment to participants and, in some cases,
+                entertainment to spectators.</h4>
+            <hr>
+            <h2 style="text-align: center;">NABIRA'S SPORTS GAME</h2>
+            <img style="margin-left: 25px;"
+                src="https://ommcomnews.com/wp-content/uploads/2023/03/f663cf49cd16558061a2c5edb8adbd88-e1679456534338-1140x670.jpg"
+                height="260px" width="260px">
+            <img src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-350190,resizemode-75,msid-70301440/news/sports/can-pro-kabaddi-league-with-season-7-starting-today-recapture-the-eyeballs.jpg"
+                height="260px" width="260px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Algeria_and_Japan_women%27s_national_volleyball_team_at_the_2012_Summer_Olympics_%287913959028%29.jpg"
+                height="260px" width="260px">
+            <img src="https://images.hindustantimes.com/img/2024/08/02/1600x900/OLYMPICS-2024-BADMINTON--350_1722617330120_1722617348465.JPG"
+                height="260px" width="260px">
+            <img src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg/f_auto/primary/j7awlsyq4brhrp6oqv4o"
+                height="260px" width="260px">
+            <img src="https://i.sport/uploads/hockey/card/discipline.jpg" height="260px" width="260px">
+            <h3 style="text-align: center;">NBIRA SPORT'S CHAMPION</h3>
+            <!-- card 4 -->
+            <div class="card" style="width: 18rem; margin-left: 20px;">
+                <img src="https://hoclschool.ac.in/wp-content/uploads/2021/07/Venkatesh-Raja-Thevar.jpg"
+                    class="card-img-top" height="260px">
+                <div class="card-body">
+                    <h5 class="card-title">ku.Sarthak tiwari</h5>
+                    <p class="card-text">Boxer<br> Gold Medalist <br>He won a gold medal in Khelo india championship
+                        2020.<br></p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
-        <!-- card 3 -->
-        <div class="card" style="width: 18rem;">
-            <img style="box-shadow: 1px 1px 20px yellow;" src="https://www.rashmipriya.com/files/node_images/nm1.JPG"
-                height="300px" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">From Head of BBA Deparment</h5>
-                <p class="card-text"> DR.Tejsing Jagdale</p>
-                <a href="https://www.thehitavada.com/Encyc/2021/1/3/Performing-beyond-the-mission-of-NCC.html"
-                    class="btn btn-primary">Go somewhere</a>
+            <!-- card 5-->
+            <div class="card" style="width: 18rem; margin-left: 1300px; margin-top: -27%;">
+                <img src="https://hoclschool.ac.in/wp-content/uploads/2019/06/atharva-jadhav.jpg" class="card-img-top"
+                    height="260px">
+                <div class="card-body">
+                    <h5 class="card-title">Ku.Aayush patel</h5>
+                    <p class="card-text">Kabbdi player.<br> Gold Medalist <br>He won gold medal in Khelo india
+                        championship
+                        2024.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
-    </div>
-    <hr>
-    <hr>
-    <!-- deparment -->
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-            <img style="box-shadow: 1px 1px 20px yellow;"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNXdmOEeoqkM113-AssbgEJOIHodqNrFT0w&s"
-                class="card-img-top" height="400px">
-            <div class="card-body">
-                <p class="card-text">A Bachelor of Business Administration (BBA) is an undergraduate degree program that
-                    prepares students for business administration and management roles. The curriculum typically
-                    includes core subjects like accounting, finance, marketing, and management.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img style="box-shadow: 1px 1px 20px yellow;"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZIAAAB9CAMAAAC/ORUrAAAAxlBMVEX///8AAAAJNEkCGSO4uLjT09MfHx+srKxEREQzMzMJNkzs7OylpaXa2tqOjo7d3d3y8vLk5OQBFh/39/cWFhaDg4PAwMBtbW1jY2MpKSmenp7IyMhNTU2WlpbMzMwBExs3NzcILkAGIzELCwsBDhR2dnZVVVVnZ2eFhYUGJjX8zQ2Xl5cAAAsAChQcHBwsIwHswAzftguVeQdhTwXVrQuihAhRQgQTDwDKpAqvjwlBNQPAnAoyKAEREREfGQB0XgOAaAZpVQWh2FusAAAIXElEQVR4nO2deXvaOBDGmRhiroSrHAkhQCCE0G66Pbftbvb4/l9qJdvYM7IlO2pSP7Hm91eDbRj0MpLmsFurMQzDMAzDMAzDMAzDPIFRb/K2XrYRTED/rH45bYLgqmxTnKfTqC+mKwh45y2hWbZBDtNp+ItpK9JieHO/Pmm319Aq2ywnEVqc312EWvzmhVq02ycnJ0KRh7KNc4zOtb+fnWZoEbEGGJVto1vMEy3aVIsIgE7ZNrpFA7Zr1S8URQZl2+gWPYATnRiRImdl2+gWHaGIkS1cl22jW/QB1iZB2luYlG2jW4w2sDbNWu0lLMq20TEuchQZAseIv5YV3BsV8WC7BM42/kKuchS5ga3nwZuyzXSIO7jJUQQ8z1uCX7ahznCbo8i9COmHQhOAsi11hT14OYq8/x3eCUmGcFm2rW5wCUOjImvhIx8+wpLd5Ffhw9KYRRGKDOHTIXKT87LNdYAJbPMU8bwtfP4SuMmWc/MvznWOIifRwv718EfoJuOyLa46Z3mpxk2giPCOb98jN+mXbXO1GeQnf6UO0k1+HN5D8I/bso2uNHnp+HasiAgT//wzchOuK74cMvlrVGQZKyK846/DD+km8Fi22VXmNDf5u40VEW7y/Zv4e8u5xxdkZVBE1t89rIjnvfv78FVEKLuyza4wzczkb9ALsb6/EV5BFREvfPkM3DP0gswURWIttmEXF2ypIsJN4PCJq+8vx/SY/G0ftRgmWiyHXgZD+PiBEyovxlgoIlmvb/K1iDddcPiHI8UXYgHDdbBcFNMichKAf//TRIq9eopRrZ9+MWEyafSeIm94VWU7+7qhEo+zsT8f1CYo+tAj9OvdyasyR6UFKQYyW5NH83xezOR6eH5V93tdmO3962RoW5CvyBZafZl/mVy+zXjHrMEvJIlkXMRZmtHJjqQO5qBurjImrak8c6opYU3xEPeUgz107DR8aeDviCi5Jg6Op7qyvWjmuIlY/8NGx062JCPyq28oRxtpSQS9FX45L9pZxKf+xNd8TTSMbrIMp6GA7BbUSwtJZKNSwmOOJsmZruRzdno3GW6CkbgzXb6xkqT2iA7MjPbNkxNduVGyp3OTOGYx3ViCBuxJktTxVca0wAydqC5VVWWW6SaJINHyng2egZ4iSQ1fZXITsla5UkLrZLjJEghaN5G7IaxKcUnIRs1gXZcY4kri8xaGKQfZnBb6de7FSOM5qLgkfiHJZVc/xpUu2D4pV8kJazeJ47MQXZQmDnXtJJngt9cvJiLkfEQOdfFz3/T1sIflULDcBuvHzpfTA5VE4ybypz7Cv/fiklzjt9dnVsYimDwzfEBVSZbQ3eI4OlQSjZtcyKXfThJ8xHBnanAQTaLGDXmV6Dfmvj85w+OuSJKZ92gEA2YnCdk9a1ftejBX4XDU4QKBIknmUNwBrGqWkuCr9CGgsOIyuLs1Jivz6QiqJBluIkeqbivJGB3RJko60W8BhYubZ/hurxQhyZscN5H5wJqtJA/oiNaI86hKgmc5d+/2FpJc7bEk+9QpEObLrSTBGy79fitWAJ3t7jPahCQrmnhX1+BJ5DpWkqD0vL4MMo89aIHep7IF3zya8l53POGnhq4ZJadsJEH+Z6hhzeKjAyh0QbUJJMFbHdVNZMEwiLotJEHxuCFFIp30GLHgRNozfLtXSSCJXF91bjI+pjeeKskAhRk7Uz29ixIoOGvjSqJLJZSEribkhHhsikoCD28E+IVbc/3jAtBdxOiy1TN8vddIKAlZV8mzbbqxRIUlUdlPjCu1TG0lO2+8+3P0yWCRJKTUhN3kIV5ni0ryuDgPGE/RdmusTwKPSesW7nUxlNSqzFES0u6QZDNkXBH9xi2W9xEuTHU1FgANC3FXi5uJrqMkGjeZJTGbXfRuqkUG1KlXko9x80EVsSSk/HccC7k7PgbddpKQX31WLvFKSRjgnYabzyuOJaFtQdHRc5T/s5SEbObSP3uZcaQbslt0fsFu4mqRSELcJJr48ShaSkJXqdQmSmz1LkYdRB+Xhqvasm0kkYQkbUM3kfN8HMvbSkLcJFVUBzOOtGwTkCSkDS5wkxWuxttKQvuGlM0wKc1n4ErLNgZJQht3amEQl8zz1pIQqZWGizvZltFVUMxwDSwJafDxg4V2lZxpLQmO/pRN1CjjvQKdYlxp2UZgSeiNVsF4oRGxloTmmUn4l6RrdO/mSss2gkhC2knqynhZS0JzmmTBbkHmw6LxRsOVlu0EIglpjmgp4/VMXoKHuKdKFIH3za60bCdQSdQNEJ5lnkkSLMFYMzGRK1xp2Y6hkig3LZCeQ2tJOuQ98QiDbvnGN5vo0pWVRZGE3qFLRt5aErJC4Q9TM47ZlzjTsn1EkaS20w6GtSQko4Jjvyv9SrExfFjVUSXBQQQtfltLQm62RgXGjmG4cZXTfI9j9VAlwdM4PfNZclw4jyiGXfufDpD1x7FKVkqSpJVK6Xu0lYTkR3AVfmNqxsau5VjLdkqSJEuoRAy2kmBFcL3kOv0RCJLceeqXet2kJTnOGWqtwlISvJ8li/nU3PeLJXGrZTstybGsp1b07CTBNUKiiJJBS4G7/dxq2c6QJIydUyuvjSRnuPJOYz4/Z0LC7cFutWw3M7oKx+kBrNGyR4EnDdVGZz5OmV0p60Yr674JDF7gzWdWBRItAInhAjdJ/vQhm2Yn+yldWdyiovuYHkrPSqppIa3K74VT3xvthvZk3tdJIstRRSRZjenyrEiSvhs+W5LqJ7vm6pMY0XI+IlPTQPfsRj/n2Y7iPRu99D63oZyUWihSpoU42iIcMXD76zMMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzDPzv8q3nSMpFiqVwAAAABJRU5ErkJggg=="
-                class="card-img-top" height="400px">
-            <div class="card-body">
-                <p class="card-text">MBA stands for Master of Business Administration, a graduate degree that focuses on
-                    business management and leadership skills. It's one of the most popular and versatile graduate
-                    degrees available, and can help you advance your career, move into new industries, or start your own
-                    business
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img style="box-shadow: 1px 1px 20px yellow;"
-                src="https://infinitylectures.com/wp-content/uploads/2020/09/b-pharma-course.jpeg" class="card-img-top"
-                height="400px">
-            <div class="card-body">
-                <p class="card-text">B. Pharm stands for Bachelor of Pharmacy, an undergraduate degree course in
-                    pharmacy. It is a popular course for science students after class 12th. The course usually lasts
-                    four years and covers topics such as: Pharmaceutical sciences, Drug development, Pharmacology,
-                    Pharmaceutical chemistry, and Pharmacy practice.
-                </p>
+            <!-- card 6-->
+            <div class="card" style="width: 18rem; margin-left:650px; margin-top: -31%;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC5FZOYuLB8XkgFipZIMc8eVGxCGaYIPqZfGWjMBOV32eaiKGvONfC35KY_Hs_5RQAw4A&usqp=CAU"
+                    class="card-img-top" height="260px">
+                <div class="card-body">
+                    <h5 class="card-title">Ku.Saniya khan</h5>
+                    <p class="card-text">Badminton player.<br> she won a gold medal in Khelo india university.
+                        [2022]<br>
+                        Mumbai.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </div>
-    <hr>
-    <hr>
-    <!-- sports -->
-     <b><h1 style="text-align: center;">SPORTS</h1></b>
+    <!-- admiition process -->
+    <div class="Addmision process">
+        <div class="img-4">
+            <form>
+                <fieldset>
+                    <legend>LOGIN</legend>
+                    <lable>Email:</lable>
+                    <input type="email">
+
+                    <lable>PASSWORD:</lable>
+                    <input type="password">
+
+                    <!-- submit -->
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="img-5">
+        <h2 style="margin-left: 21%; ">CONTACT</h2>
+        <br>
+        <br>
+        <h3 style="margin-left: 20px;">Our Branches</h3><br>
+        <h5 style="margin-left: 20px;">Nabira Mahavidyalya Katol<br><br>Pharmacy College Katol <br><br>MBA College Katol
+            <br><br> Orchid Public School Katol</h5>
+        <h3 style="margin-left:20%; margin-top: -14%;">Contact Us</h3>
+        <h5 style="margin-left:20%;">nabira mahavidyalaya katol<br><br>Nabira College
+            Campus,<br><br>Dhantoli,Katol<br><br>DIS-nagpur,State-Maharastra,<br><br>pin-no-441302</h5>
+        <br>
+        <br>
+        <h3 style="margin-left: 40%; margin-top: -19%;">Contact no</h3><br>
+        <h5 style="margin-left: 40%;">7112222085<br><br>7112222004</h5>
+        <h3 style="margin-left: 60%; margin-top: -9%;">LOCTION</h3>
+        <img style="margin-left: 60%;" src="./boostrap.img/nbiragooglemap.png" height="250px">
+
+
+    </div>
+
+
+
 
 
 
